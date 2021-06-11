@@ -83,9 +83,9 @@ local rowToPlay, columnToplay = 0, 0
 while not gameOver do
 
     -- Asks which position the player wanna play!
-    print("Which row do you wanna play " .. player .. "?")
+    print("Which row do you wanna play, " .. player .. "?")
     rowToPlay = io.read("*n")
-    print("Whic column do you wanna play " .. player .. "?")
+    print("Which column do you wanna play, " .. player .. "?")
     columnToplay = io.read("*n")
 
     -- Checks if the position that player choose is empty
